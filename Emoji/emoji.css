@@ -1,0 +1,37 @@
+*{
+    background-color: #7ed8df;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #9ddba8;
+}
+
+.emoji{
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.closed{
+    display: none;
+}
+.open{
+    display: none;
+}
+.speak{
+    display: none;
+}
+.faced{
+    display: none;
+}
+.active{
+    display: block;
+}

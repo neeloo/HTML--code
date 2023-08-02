@@ -1,0 +1,15 @@
+
+li{
+    color: rgb(255, 0, 183);
+}
+.class{
+    color: rgb(111, 255, 0);
+
+    /*  type of color setting */
+    /* color: rgb(22,78,90);
+    color: rgba(55,66,77,01);
+    color: hsl(98,6%,67%); */
+}
+p{
+    color: blue;
+}

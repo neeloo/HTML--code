@@ -1,0 +1,61 @@
+h1{
+    color: blue;
+}
+.class{
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: brown;
+     /* border-top-style:dashed ; */
+     
+      background-color: rgb(235, 255, 205);
+     color: rgb(255, 0, 89);
+     align-items: center;
+}
+.item{
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 0%;
+    background-color: rgb(155, 211, 178);
+    border-color: blue;
+    color: brown;
+    align-items: center;
+    background-image: url("n.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500%; width: 100%;
+    /* margin: 5px; */
+    /*  margin means distens of all side  */
+    /*  top  right bottom  left  */
+    margin: 20px 33px 34px 22px;
+}
+.nav{
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 2px;
+    color: blue;
+    background-color: aqua;
+    border-color: rgb(192, 46, 16);
+    /* margin: 20px; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    width: 50%;
+    height: 444px;
+    margin: auto;
+
+}
+.nm{
+    border-style:solid;
+    /* border-top-style:dashed ; */
+    border-bottom-left-radius: 5px;
+    border-top-color: rgb(60, 37, 194);
+    background-image: url("bg.jpg");
+}
+
+
+
+
+
+
+
+

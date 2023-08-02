@@ -1,0 +1,111 @@
+ div{
+    background-color: rgba(15, 16, 16, 0.925);
+}
+
+.class{
+    background-color: rgba(16, 17, 16, 0.968);
+}
+
+
+a{
+    /* background-color: rgb(230, 234, 226); */
+    
+    /* border: 10ex; */
+    color: rgb(241, 233, 233);
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize ;
+    font-size: 1.5pw;
+    margin: 0 16px;
+    letter-spacing: 2px;
+
+}
+.item{
+    display: inline;
+}
+.items{
+   
+     padding: 2px 0;
+     list-style: square;
+     /* margin: 25px; */
+     width: 50%;
+     /* color: aliceblue; */
+     height: 25px;
+     margin-left: auto;
+}
+a:hover{
+    background-color: rgba(88, 212, 110, 0.93);
+    font-size: 1.5em;
+    color: aliceblue;
+}
+/* a.active{
+    font-size: 2.5em;
+} */
+
+
+/* .class2{
+    visibility: hidden
+} */
+.container{
+    border: 2px solid rgb(215, 11, 55);
+    padding: 5px;
+    height: 50px;
+    width: 100%;
+}
+
+.first{
+    background-color: rgb(221, 18, 18);
+    height: 44px;
+    width: 30%;
+    display: inline-block;
+    float: right;
+}
+.second{
+    background-color: rgb(64, 255, 0);
+    height: 44px;
+     width: 30%;
+     display: inline-block;
+}
+.myflax{
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.myflax>div{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    font-size: 25px;
+    margin: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
