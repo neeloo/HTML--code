@@ -15,11 +15,25 @@
 <body>
   <img src="w3schools.jpg" width="250px" height="400px" alt="W3school">
 
-  
- <script>
-  //document.write( "this is my javascript code" )
 
- </script>
+
+  <!-- document.write( "this is my javascript code" ) -->
+  <!-- Current Date and Time: <span id="txt"></span> -->
+
+  Current Time: <span id="text"></span>
+  <script>
+    // var today = new Date();
+    // document.getElementById('txt' ).innerHTML = today;
+
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    document.getElementById('text').innerHTML = h + ":" + m + ":" + s;
+  </script>
+
+
+
 
 
 </body>
